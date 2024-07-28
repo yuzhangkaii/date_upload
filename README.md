@@ -10,6 +10,10 @@ accessPassword      = "123456"  //访问密码
 fileRetentionPeriod = 3 * time.Hour  //文件存放小时，到时间自动删除
 )
 ```
+# min
+```
+fileRetentionPeriod = 5 * time.Minute
+```
 
 # up.py
 
